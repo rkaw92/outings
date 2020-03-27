@@ -1,0 +1,42 @@
+{
+  "name": "outings",
+  "version": "1.0.0",
+  "description": "An application for tracking when you go out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "author": "Robert Kawecki <robert+npm@rkaw.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "dexie": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.2.0",
+    "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@webpack-cli/init": "^0.3.0",
+    "autoprefixer": "^9.7.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^1.1.3",
+    "terser-webpack-plugin": "^2.3.5",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "workbox-webpack-plugin": "^5.1.1"
+  }
+}
