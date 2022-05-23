@@ -11,7 +11,7 @@
   "author": "Robert Kawecki <robert+npm@rkaw.pl>",
   "license": "MIT",
   "dependencies": {
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tailwindcss": "^1.2.0",
